@@ -32,6 +32,35 @@ A wrapper for editing the Lessig2016 port of Twitter Bootstrap.
     npm start
     ```
 
+    This is a shortcut for running the `develop` Gulp task.
+
+    ```
+    npm run gulp develop
+    ```
+
+1. Each Gulp task can be run following the above pattern.
+
+    ```
+    npm run gulp taskname
+    ```
+
+    The following tasks are available:
+
+    * `build-styles` - build Bootstrap core and theme CSS
+    * `build-styles-core` - build Bootstrap core CSS
+    * `build-styles-theme` - build Bootstrap theme CSS
+    * `build` - build Bootstrap CSS, copy Bootstrap JS and fonts and site assets
+    * `clean` - remove the build directory
+    * `copy-assets` - copy the site assets
+    * `copy-fonts` - copy Bootsrap fonts
+    * `copy-scripts` - copy Bootstrap JS
+    * `default` - alias for `develop`
+    * `develop` - sequence for `build`, `serve`, `watch`
+    * `serve` - run a static webserver
+    * `watch` - set up filesystem watchers on Bootstrap .less files and public directory
+
+1. Preview the site at [http://localhost:8440/](http://localhost:8440/). The port can be configured in the `tasks/constants` file.
+
 ## Code of Conduct
 
 The Lessig Equal Citizens Exploratory Committee is committed to fostering an open and inclusive community where engaged, dedicated volunteers can build the strategy and tools necessary to fix our country's democracy. All members of the community are expected to behave with civility, speak honestly and treat one another respectfully.
