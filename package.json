@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/eslint/bin/eslint.js",
-    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "gulp": "./node_modules/.bin/gulp",
     "start": "npm run gulp"
   },
   "author": "Dave Furfero <furf@furf.com>",
