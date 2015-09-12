@@ -2,6 +2,36 @@
 
 A wrapper for editing the Lessig2016 port of Twitter Bootstrap.
 
+## Installation
+
+1. Clone the repository.
+
+    ```
+    git clone https://github.com/Lessig2016/bootstrap-wrap.git
+    ```
+
+1. Install the dependencies.
+
+    ```
+    cd bootstrap-wrap
+    npm i
+    ```
+
+1. Intall the Lessig2016/bootstrap submodule.
+
+    ```
+    git submodule init
+    git submodule update
+    ```
+
+## Developing
+
+1. Start the development environment.
+
+    ```
+    npm start
+    ```
+
 ## Code of Conduct
 
 The Lessig Equal Citizens Exploratory Committee is committed to fostering an open and inclusive community where engaged, dedicated volunteers can build the strategy and tools necessary to fix our country's democracy. All members of the community are expected to behave with civility, speak honestly and treat one another respectfully.
